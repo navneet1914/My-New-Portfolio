@@ -29,7 +29,7 @@ nav {
 }
 
 span {
-  color: #6a00ff;
+  color: #ff0000;
 }
 
 nav ul {
@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #6a00ff;
+  color: #ff0000;
   border: 15px solid #101010;
 }
 
@@ -76,7 +76,7 @@ h3 {
 }
 
 h4 {
-  color: #fcfc;
+  color: #ffffff;
   font-size: 25px;
   margin-bottom: 20px;
 }
@@ -90,7 +90,7 @@ h4 {
 .newslatter form input:first-child {
   width: 100%;
   padding: 14px 15px;
-  border: 2px solid #6a00ff;
+  border: 2px solid #ff0000;
   outline: none;
   border-radius: 30px;
   margin-bottom: 10px;
@@ -103,7 +103,7 @@ h4 {
   border: none;
   padding: 10px 30px;
   border-radius: 30px;
-  background-color: #6a00ff;
+  background-color: #ff0000;
   font-weight: bold;
   color: black;
   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
@@ -154,18 +154,19 @@ h4 {
 }
 
 .about-text p {
-  color: #fcfc;
+  color: #ff8d9a;
   letter-spacing: 1px;
   line-height: 1.5;
   font-size: 18px;
   margin-bottom: 45px;
+  text-align: justify;
 }
 
 button {
   display: block;
   margin-top: 20px;
   font-size: 22px;
-  background-color: #6a00ff;
+  background-color: #ff0000;
   color: whitesmoke;
   text-decoration: none;
   border: 2px solid transparent;
@@ -177,7 +178,7 @@ button {
 
 button:hover {
   background-color: transparent;
-  border: 2px solid #6a00ff;
+  border: 2px solid #ff0000;
   cursor: pointer;
 }
 
@@ -203,8 +204,7 @@ button:hover {
   min-height: 400px;
 }
 
-.card,
-.card1 {
+.card {
   height: 365px;
   width: 100%;
   max-width: 335px;
@@ -215,12 +215,26 @@ button:hover {
   position: relative;
   overflow: hidden;
   text-align: center;
+
+}
+
+.card1 {
+  height: 365px;
+  width: 100%;
+  max-width: 335px;
+  padding: 20px 35px;
+  background: #000000;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
 }
 
 .card:hover,
 .card1:hover {
   background-color: transparent;
-  border: 2px solid #6a00ff;
+  border: 2px solid #ff0000;
   cursor: pointer;
 }
 
@@ -230,7 +244,7 @@ button:hover {
   display: block;
   text-align: center;
   margin: 25px 0px;
-  color: #6a00ff;
+  color: #ff0000;
 }
 
 h5 {
@@ -241,7 +255,7 @@ h5 {
 }
 
 .pra p {
-  color: #fcfc;
+  color: #ff8d9a;
   font-size: 18px;
   line-height: 27px;
   margin-bottom: 25px;
@@ -249,7 +263,7 @@ h5 {
 
 .card .button,
 .card1 .button {
-  background-color: #6a00ff;
+  background-color: #ff0000;
   color: whitesmoke;
   text-decoration: none;
   border: 2px solid transparent;
@@ -262,7 +276,7 @@ h5 {
 .card .button:hover,
 .card1 .button:hover {
   background-color: transparent;
-  border: 2px solid #6a00ff;
+  border: 2px solid #ff0000;
   cursor: pointer;
 }
 
@@ -271,11 +285,22 @@ h5 {
   width: 100%;
   padding: 100px 0px;
 }
+.myworks {
+  
+    background: #000000;
+    width: 100%;
+    padding: 100px 0px;
+  
+  
+}
+.myworks h5{
+  margin-bottom: 120px;
+}
 
 .Contact-Me {
   width: 100%;
   height: 290px;
-  background: black;
+  background:#191919;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -293,7 +318,7 @@ h5 {
 .button-two,
 .Resume,
 .backtotop {
-  background-color: #6a00ff;
+  background-color: #ff0000;
   color: whitesmoke;
   text-decoration: none;
   border: 2px solid transparent;
@@ -308,7 +333,7 @@ h5 {
 .Resume:hover,
 .backtotop:hover {
   background-color: transparent;
-  border: 2px solid #6a00ff;
+  border: 2px solid #ff0000;
   cursor: pointer;
 }
 
@@ -399,36 +424,78 @@ h5 {
 
   .newslatter form input:last-child {
     margin-left: 0;
-    
+
   }
 }
+
 @media (max-width: 768px) {
-  .about h2{
+  .about h2 {
     font-size: 25px;
   }
-  .about h5{
+
+  .about h5 {
     font-size: 20px;
   }
-  .about p{
+
+  .about p {
     font-size: 17px;
   }
 }
+
 @media (max-width: 768px) {
-  .Contact-Me p{
-    font-size: 18px;
+  .Contact-Me p {
+    font-size: 20px;
     align-self: center;
   }
 }
+
 @media (max-width: 768px) {
-  .skills h2{
+  .skills h2 {
     font-size: 75px;
-    align-self:center;
+    align-self: center;
   }
-  .box h5{
-    font-size: 10px;
+
+  .box h5 {
+    font-size: 14px;
   }
-  .box p{
+
+  .box p {
     font-size: 7px;
-    
+
+  }
+}
+
+@media (max-width: 768px) {
+  .pra p {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .card{
+    height: 200px;
+    width: 100%;
+    padding: 20px 1px;
+    background: #191919;
+    border-radius: 20px;
+    justify-content: center;
+    max-width: 500px;
+    text-align: center;
+  }
+  .card1 {
+    height: 200px;
+    width: 100%;
+    padding: 20px 10px;
+    background: #000000;
+    border-radius: 20px;
+    justify-content: center;
+    max-width: 500px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .myworks h5{
+    margin-bottom: 27px;
   }
 }
